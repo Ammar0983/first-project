@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* =====================image======================= */
+.flower{
+    background-image: url(./pic.2.jpg);
+    background-repeat: no-repeat ;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.flower-2{
+    height: 100%;
+    background-image: linear-gradient( rgba(95, 163, 202,0.945), transparent);
+}
+h2{
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+/* =======================heading no 1============ */
+h1{
+    text-align: center;
+    text-decoration: underline solid red;
+    display:block;
+    position: relative;
+    top: 15px;
+    /* margin-top: 20px; */
+}
+.heading1{
+    font-size: 100px;  
+}
+/* ============================card section ========== */
+.main-div{
+    height: 440px;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    background-color: rgb(95, 163, 202);
+    text-align: center;
+
+}
+.card{
+vertical-align: top;
+box-shadow: 10px ,10px;
+height: 70%;
+width: 250px;
+margin: 15px;
+padding: 10px;
+display: inline-block;
+border-radius: 10px;
+position: relative;
+top: 50px;
+background-color: rgba(3, 121, 66, 0.452);
+}
+.card a{
+    margin-left: 15px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: violet;
+}
+.card a:hover{
+    color: black;
+    background-color: wheat;
+}
+.card .time_1 {
+    font-size: 25px;
+    color: rgba(81, 212, 179);
+    text-align: center;
+    text-decoration: underline rgb(81, 212, 179);
+    margin-top: 2px;
+}
+.heading1{
+    font-size: 30px;
+    color: black;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+/* =============================footer===================== */
+.footer{
+    color:blue ;
+    text-align: center;
+    background-color: rgb(95, 163, 202);
+    position: relative;
+    top: 24px;
+    height: 8vh;
+}
+.footer ul li{
+    display: inline-block;
+    font-size: 15px;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    top: 15px;
+    background-color: #6aa7e079;
+    color: azure;
+    border-radius: 40px 40px
+}
+
+.footer ul li a:hover{
+    color: red;
+    background-color: rgba(118, 219, 250, 0.507);
+
+}

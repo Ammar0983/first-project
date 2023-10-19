@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    color: #ff5454;
+    margin-top: 50px;
+}
+.from-mainbox{
+    background-color: rgba(99, 186, 236, 0.603);
+    width: 25rem;
+    margin: auto;
+    padding: 10px;
+    margin-top: 25px;
+}
+/* ======================select,label,inpu======================== */
+select,label,input{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top :8px; 
+    height: 25%;
+    font-size: 15px;
+}
+input:invalid{
+    background-color: rgb(241, 118, 118);
+}
+/* ===========================checkbox====================== */
+.from-mainbox input[id="term"],
+.from-mainbox input[id="term"] + label
+{
+    display: inline;
+    width: auto;
+    font-size: 20px;
+    
+}
+/* ============================button======================= */
+.from-mainbox button[type="submit"]
+{
+    display: block;
+    margin: 1rem auto;
+    padding: 8px;
+    width: 105px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(241, 118, 118);
+    border-radius: 10px;
+}
+/* ========================media=========================== */
+@media(max-width:500px){
+     .from-mainbox{
+        width: 100%;
+     }
+    }

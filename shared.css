@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ammar{
+    /* border: 2px solid black; */
+    height: 60px;
+    background-color: rgba(99, 186, 236, 0.603);
+    /* position: fixed; */
+    width: 100%;
+}
+.logo, .link, .btn{
+    height: 100%;
+    display: inline-block;
+}
+.logo{
+    width: 30%;
+    vertical-align: top;
+}
+.logo img{
+    height: 60px;
+    width: 100px;
+    margin-left: 110px;
+}
+.link{
+    width: 40%;
+    text-align: center;
+    vertical-align: top;
+}
+.link ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 21px;
+    padding-right: 25px;
+}
+.link ul li a{
+    text-decoration: none;
+    color: rgb(12, 12, 11);
+}
+.link ul li a:hover{
+    color: rgb(243, 64, 64);
+    text-decoration: underline;
+}
+.btn{
+    width: 25%;
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+    background-color: rgb(241, 118, 118);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top:10px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: wheat;
+}
+.btn a:hover{
+    color: black;
+    background-color: white;
+}
